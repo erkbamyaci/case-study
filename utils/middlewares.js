@@ -8,8 +8,9 @@ module.exports = {
 
         try {
 
-            // Add db to req
+            // connect to database
             const client = await MongoClient.connect(connUri, {useNewUrlParser: true});
+            // Add db and client to req
             req.client = client;
             req.db = client.db("getir-case-study");
 
@@ -17,7 +18,17 @@ module.exports = {
             next();
         }
         catch (err) {
+
             console.log(err);
+
+            // prepare error response
+            const result = {};
+            result.code = 2;
+            result.msg = "Error";
+            result.error = "cannot connect to database";
+
+            // send error response with status code 500
+            res.status(500).send(result);
         }
     },
 
@@ -27,6 +38,7 @@ module.exports = {
 
             const {client} = req;
 
+            // disconnect from database
             client.close();
         }
         catch (err) {

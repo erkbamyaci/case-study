@@ -2,7 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9518315a-241c-4a4e-a65e-27b5582cefe6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apidoc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api_project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api_project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/locale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/pt_br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/locales/zh_cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/utils/handlebars_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/utils/send_sample_request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/diff_match_patch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/handlebars.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/list.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/lodash.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/path-to-regexp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/path-to-regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-Splus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-aea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-agc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-cbm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-cl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-clj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-erl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-lasso.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-lassoscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-latex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-lgt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-ll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-llvm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-logtalk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-ls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-lsp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-matlab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-mumps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-nemerle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-rd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-rkt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-rust.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-s.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-scm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-ss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-swift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-vbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-vhd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-xq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-xquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/lang-yml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/prettify/run_prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/require.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/semver.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/vendor/webfontloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/main_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/main_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/records.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/records.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/middlewares.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/middlewares.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/records.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -36,26 +146,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/middlewares.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/main_controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            <state relative-caret-position="392">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/controllers/main_controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="15">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -63,17 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -90,8 +194,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apidoc.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -115,11 +233,14 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/models/records.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/routes/records.js" />
         <option value="$PROJECT_DIR$/utils/middlewares.js" />
-        <option value="$PROJECT_DIR$/controllers/main_controller.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/apidoc.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/controllers/main_controller.js" />
       </list>
     </option>
   </component>
@@ -152,6 +273,11 @@
               <item name="case-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="case-study" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="case-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="case-study" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="case-study" type="b2602c69:ProjectViewProjectNode" />
@@ -213,7 +339,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558725480668</updated>
-      <workItem from="1558725483179" duration="9604000" />
+      <workItem from="1558725483179" duration="12070000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore added">
       <created>1558738212888</created>
@@ -226,7 +352,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9604000" />
+    <option name="totallyTimeSpent" value="12070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="962" extended-state="0" />
@@ -260,45 +386,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/records.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/middlewares.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/records.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -309,24 +400,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/main_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/records.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/main_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
