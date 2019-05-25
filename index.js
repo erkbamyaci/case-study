@@ -30,8 +30,8 @@ app.use((req, res, next) => {
 
 app.use("/api/v1", routes(router));
 
-app.listen(`${stage.port}`, () => {
-    console.log(`Server now listening at localhost:${stage.port}`);
+const server = app.listen(stage && stage.port || 7000, () => {
+    console.log(`Server now listening at localhost: ${stage && stage.port || 7000}`);
 });
 
-module.exports = app;
+module.exports = server;

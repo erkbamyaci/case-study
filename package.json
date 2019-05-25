@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "doc": "apidoc -i controllers/ -o ./docs/",
     "start": "cross-env NODE_ENV=development nodemon index.js"
   },
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-eslint": "^10.0.1",
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
@@ -24,6 +25,7 @@
     "eslint-plugin-ava": "^5.1.1",
     "jest": "^24.8.0",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
   }
 }
