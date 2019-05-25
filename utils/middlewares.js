@@ -2,6 +2,7 @@ const MongoClient = require("mongodb");
 
 module.exports = {
 
+    // connect to database
     connectToDB: async (req, res, next) => {
 
         const connUri = process.env.MONGO_LOCAL_CONN_URL;
@@ -32,6 +33,7 @@ module.exports = {
         }
     },
 
+    // disconnect from database
     disconnectFromDB: async (req) => {
 
         try {

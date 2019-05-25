@@ -17,7 +17,7 @@ module.exports = {
      * @apiSuccess {string} msg Success Message
      * @apiSuccess {array} records List of Records
      *
-     * @apiError {number} code Success Code 1
+     * @apiError {number} code Error Code 1
      * @apiError {string} msg Error Message
      * @apiError {string} error Reason of Error
      *
