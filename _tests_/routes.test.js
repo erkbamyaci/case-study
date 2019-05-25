@@ -44,7 +44,7 @@ describe('basic route tests', () => {
         try {
 
             const response = await Axios({
-                url: "http://localhost:7000/api/v1/records",
+                url: "http://3.120.140.136:7000/api/v1/records",
                 data: payload,
                 method: "POST",
                 headers: {
