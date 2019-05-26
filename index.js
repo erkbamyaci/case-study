@@ -28,8 +28,10 @@ app.use((req, res, next) => {
     next();
 });
 
+// add /api/v1 to be begining of request urls
 app.use("/api/v1", routes(router));
 
+// start listening port
 const server = app.listen(stage && stage.port || 7000, () => {
     console.log(`Server now listening at localhost: ${stage && stage.port || 7000}`);
 });

@@ -25,7 +25,6 @@
     "eslint-plugin-ava": "^5.1.1",
     "jest": "^24.8.0",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.10",
-    "supertest": "^4.0.2"
+    "nodemon": "^1.18.10"
   }
 }
